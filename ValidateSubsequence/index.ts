@@ -1,3 +1,4 @@
+// O(n) time | O(1) space
 export function isValidSubsequence(array: number[], sequence: number[]) {	
 	let pos = 0;
 	for (let i: number = 0; i < array.length; i++) {
