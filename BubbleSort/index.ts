@@ -1,4 +1,4 @@
-// O time | O space
+// O(n^2) time | O(1) space
 export function bubbleSort(array: number[]) {
 	let arrayLength = array.length;
 	let didSwap = false;
