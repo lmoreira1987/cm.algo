@@ -25,34 +25,7 @@ function compareHeights(a: any, b: any) {
 	return (a > b);
 }
 
-// export function bubbleSort(array: number[]) {
-// 	let arrayLength = array.length;
-// 	let didSwap = false;
-// 	let aux;
-
-// 	for (let i: number = 0; i < array.length; i++) {
-// 		let temp = 0;
-// 		while(temp < arrayLength - 1) {
-// 			console.log(`${array[temp]} ${array[temp+1]}`)
-// 			if (array[temp] > array[temp+1]) {
-// 				didSwap = true;
-// 				aux = array[temp];
-// 				array[temp] = array[temp+1];
-// 				array[temp+1] = aux;
-// 			}
-	
-// 			temp++;
-// 		}
-
-// 		if (!didSwap) break;
-// 		console.log("Times: ", i)
-// 		arrayLength--;
-// 	}
-
-//   	return array;
-// }
-
-let redShirtHeights = [5, 9, 1, 3, 4];
+let redShirtHeights = [5, 8, 1, 3, 4];
 let blueShirtHeights = [6, 9, 2, 4, 5];
 
 console.log(classPhotos(redShirtHeights, blueShirtHeights));
