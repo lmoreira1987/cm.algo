@@ -1,5 +1,5 @@
 Transpile to TypeScript
 npx tsc folder/file.ts
 
-Run
+* Run
 node folder/file.js
