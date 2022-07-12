@@ -1,4 +1,4 @@
-// Space = O( ) | Time = O( )
+// Space = O(nlogn) [because we have to sort the list] | Time = O(1)
 
 export function nonConstructibleChange(coins: number[]) {
   if (coins.length <= 1 && coins[0] != 1) return 1;
