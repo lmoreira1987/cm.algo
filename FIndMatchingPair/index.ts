@@ -1,4 +1,4 @@
-// Time = O(n) [because we have to sort the list] | Space = O(1) [Dont need extra space]
+// Time = O(n) | Space = O(n)
 
 export function findMatchingPair(array: number[], sum: number) {
   const mySet: Set<number> = new Set<number>(); // npm install -D @types/node

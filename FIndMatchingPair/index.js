@@ -1,5 +1,5 @@
 "use strict";
-// Time = O(n) [because we have to sort the list] | Space = O(1) [Dont need extra space]
+// Time = O(n) | Space = O(n)
 exports.__esModule = true;
 exports.findMatchingPair = void 0;
 function findMatchingPair(array, sum) {
@@ -14,7 +14,8 @@ function findMatchingPair(array, sum) {
     return false;
 }
 exports.findMatchingPair = findMatchingPair;
-//const array = [1, 2, 3, 9];
-var array = [1, 2, 4, 11, 4, 5];
+// const array = [1, 2, 3, 9];
+// const array = [1, 2, 4, 11, 4, 5];
+var array = [1, 2, 4, 4];
 var sum = 8;
 console.log(findMatchingPair(array, sum));
