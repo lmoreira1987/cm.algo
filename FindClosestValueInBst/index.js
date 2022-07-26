@@ -1,5 +1,5 @@
 "use strict";
-// Time = O(n) | Space = O(n)
+// Time = O(logn) | Space = O(logn)
 exports.__esModule = true;
 exports.findClosestValueInBst = void 0;
 var BST = /** @class */ (function () {
